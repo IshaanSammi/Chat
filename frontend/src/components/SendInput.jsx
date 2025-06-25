@@ -41,7 +41,7 @@ const SendInput = () => {
         setShowEmojiPicker(false);
     };
 
-    // ✅ Close emoji picker on outside click
+    
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (pickerRef.current && !pickerRef.current.contains(event.target)) {
