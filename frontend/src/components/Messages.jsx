@@ -13,7 +13,7 @@ const Messages = () => {
 
   const { messages } = useSelector(store => store.message);
 
-  // Helper to format date like "Today", "Yesterday", or actual date
+
   const formatDate = (dateStr) => {
     const today = new Date().toDateString();
     const yesterday = new Date(Date.now() - 86400000).toDateString();
